@@ -18,7 +18,6 @@ function App() {
 
 
     const deleteNote = (id) => {
-        console.log(id);
         setNotes(prevNotes => {
             return prevNotes.filter((noteItem, index) => {
                 return index !== id;
